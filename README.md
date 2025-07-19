@@ -1,5 +1,10 @@
-#edututor ai: personalized learning with generative ai and lms
-📁 Project Structure
+# edututor ai: personalized learning with generative ai and lms
+
+
+
+# 📁 Project Structure
+
+
 EduTutorAI/
 ├── backend/
 │   ├── app.py                   # Flask backend
@@ -27,7 +32,7 @@ EduTutorAI/
 ├── run.sh                       # Shell script to launch app
 └── README.md                    # Documentation
 
-📌 Key Features
+# 📌 Key Features
 🔄 Google Classroom Sync – Sync courses from Google Classroom (mocked)
 
 ✏️ Dynamic Quiz Generation – Quizzes based on course topic using Granite LLM (mocked)
@@ -40,7 +45,7 @@ EduTutorAI/
 
 🌐 Modular Flask Backend + HTML Frontend
 
-🔧 Technologies Used
+# 🔧 Technologies Used
 | Component                | Technology                                                |
 | ------------------------ | --------------------------------------------------------- |
 | 💻 Backend API           | Python, Flask, IBM Watsonx (Granite), Flask-CORS          |
@@ -53,7 +58,7 @@ EduTutorAI/
 | 📦 Package Manager       | `pip`, `venv`                                             |
 | 📁 Version Control       | Git + GitHub                                              |
 
-🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 📥 1. Clone the Repository
 bash
 git clone https://github.com/your-username/EduTutorAI.git
@@ -79,14 +84,14 @@ cd frontend
 python -m http.server 8080
 Visit: http://localhost:8080
 
-🧠 Notes
+# 🧠 Notes
 The current version uses mocked data for IBM Watsonx, Google Classroom, and Pinecone to simulate a real environment.
 
 You can replace these with real API calls once API credentials and tokens are available.
 
 Basic CORS support is enabled via Flask-CORS for cross-origin requests from the frontend.
 
-📄License
+# 📄License
 MIT License
 
 Copyright (c) 2025 
