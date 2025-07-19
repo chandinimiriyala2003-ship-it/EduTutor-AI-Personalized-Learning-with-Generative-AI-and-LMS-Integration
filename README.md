@@ -125,7 +125,7 @@ EduTutor AI is a personalized learning platform integrating IBM Watsonx and Goog
 - Educator Dashboard
 - Diagnostic & Adaptive Testing
 
-## Setup
+ Setup
 ```bash
 bash run.sh
 ``
